@@ -1,0 +1,21 @@
+.AppContainer{
+  display: flex;
+}
+
+.Content{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 700px;
+}
+.create-post {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+

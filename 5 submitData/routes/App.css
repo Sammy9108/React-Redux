@@ -1,0 +1,36 @@
+.AppContainer{
+  display: flex;
+}
+
+.Content{
+  width: 100%;
+}
+
+.sidebar{
+  min-height: 700px;
+}
+.create-post {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+
+.welcome-msg{margin: 100px 0;}
+
+.welcome-txt{color: rgb(90, 90, 211);}
+
+.container-foot{    margin-top: 5 rem !important;
+  margin-bottom: 1.5rem !important;}
+
+.spinner{margin-top: 50px;
+    margin-bottom: 80px;}
+
+.time-run{
+  display: flex;
+  float: right;
+  color: darkgreen;
+}
