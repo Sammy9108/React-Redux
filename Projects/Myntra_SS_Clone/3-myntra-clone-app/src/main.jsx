@@ -20,9 +20,7 @@ const Router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <Provider store={myntraStore}>
-      <RouterProvider router={Router} />
-    </Provider>
-  </React.StrictMode>
+  <Provider store={myntraStore}>
+    <RouterProvider router={Router} />
+  </Provider>
 );

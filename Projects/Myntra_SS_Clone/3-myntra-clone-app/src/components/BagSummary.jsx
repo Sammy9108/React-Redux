@@ -21,14 +21,25 @@ const BagSummary = () => {
   const finalPayment = totalMRP - totalDiscount + CONVENIENCE_FEES;
 
   const handlePlaceOrder = () => {
-    Swal.fire({
-      position: "top-middle",
-      icon: "success",
-      title: "Kudos your Order is Placed.",
-      text: " Enjoy your shopping at SS myntra App",
-      showConfirmButton: false,
-      timer: 2500,
-    });
+    {
+      totalItem > 0
+        ? Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Kudos your Order is Placed.",
+            text: " Enjoy your shopping at SS myntra App",
+            showConfirmButton: false,
+            timer: 2500,
+          })
+        : Swal.fire({
+            position: "center",
+            icon: "error",
+            title: "Oops... No Orders in Bag",
+            text: " Enjoy your shopping at SS myntra App",
+            showConfirmButton: false,
+            timer: 2500,
+          });
+    }
   };
 
   return (
